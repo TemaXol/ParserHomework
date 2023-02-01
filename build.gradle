@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.javiercanillas:jackson-masker:0.9.9'
+    implementation 'com.fasterxml:jackson-xml-databind:0.6.2'
+    implementation 'org.jasig.service:person-directory:1.0.1'
+    implementation 'org.jasig:person-directory:1.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    implementation 'com.codeborne:selenide:6.11.2'
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+    implementation 'com.codeborne:pdf-test:1.5.0'
+    implementation 'com.codeborne:xls-test:1.4.3'
+    implementation 'com.opencsv:opencsv:5.7.1'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.14.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+    testImplementation 'com.codeborne:pdf-test:1.8.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}

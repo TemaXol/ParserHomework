@@ -1,0 +1,14 @@
+{
+  "author": "Chef Cook",
+  "menu": {
+    "id": "file",
+    "values": "File",
+    "popup": "232",
+    "menuitem": [
+      {
+        "vat": "ads",
+        "net": "qwerty"
+      }
+    ]
+  }
+}
